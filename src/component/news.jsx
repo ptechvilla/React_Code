@@ -21,7 +21,7 @@ const News = () => {
 
 
     const fetchnews = () => {
-        axios.get("https://newsapi.org/v2/top-headlines?country=us&apiKey=9f15837d0bf94e028496e6c920ecbe82").then((res) => {
+        axios.get("https://newsapi.org/v2/top-headlines?country=in&apiKey=9f15837d0bf94e028496e6c920ecbe82").then((res) => {
             console.log(res);
             setNews(res.data.articles);
         })
@@ -52,7 +52,7 @@ const News = () => {
                                             </Typography>
                                         </CardContent>
                                         <CardActions>
-                                            <Button size="small" style={{ color: "red" }}>Read more...</Button>
+                                          <a href='#'> <Button size="small" style={{ color: "red" }}>Read more...</Button></a> 
                                         </CardActions>
                                     </Card>
                                 </div>
