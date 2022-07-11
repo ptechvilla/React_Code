@@ -2,60 +2,11 @@
 import './index.css';
 import React from 'react';
 
-// import { useState } from 'react';
-// // import './App.css';
-// //import Info from './Info';
-
-// function Navbar() {
-//   return (
-//     <>
-//       <div class="nav">
-//         <ul>
-//           <li>home</li>
-//           <li>about</li>
-//           <li>info</li>
-//           <li>Contact</li>
-//           <li>Help</li>
-//         </ul>
-//       </div>
-//     </>
-//   );
-// }
-
-
-
-// function Time() {
-//   let time = new Date().toLocaleTimeString();
-
-//   const[ctime, settime] = useState(time);
-
-//  let updatetime=()=> {
-//   let time = new Date().toLocaleTimeString();
-//     settime(time);
-//   }
-
-//   setInterval(updatetime, 1000);
-
-//   return (
-//     <div>
-//       <h1>Hello, world!</h1>
-//       <h2 style={{color:"red"}}>It is {ctime}.</h2>
-//     </div>
-//   );
-// }
-
-
-
-// export { Navbar, Time };
-
-
-//   //export default App;
-
-
-
+// import Time from './component/clock'
 //import Info from './info';
 //import Star from './ustar';
 //import Demo from './component/demo';
+//import Navbar from './component/navbar';
 //import Parent from './component/parent';
 //import Lists from './component/listrendering';
 //import Style from './component/styles';
@@ -68,26 +19,33 @@ import React from 'react';
 //import ContactCard from './components/ContactCard'
 //import ContactList from './components/ContactList'
 //import Pokeman from './component/pokeman'
-import News from './component/news'
+//import News from './component/news'
+import Routing from './component/routing'
 
 
-function App(){
+
+function App() {
   return (
     <>
-   {/* <Demo/>
-   <Lists/> */}
-   {/* <Parent/> */}
-   {/* <Style/> */}
-   {/* <Starcount/> */}
-   {/* <Icons/> */}
-   {/* <Forms /> */}
-       {/* <Hooks /> */}
-       {/* <Header/>
-       <AddContact/> */}
-       {/* <ContactCard/>
-       <ContactList/> */}
-       {/* <Pokeman/> */}
-       <News/>
+      {/* <Demo/> */}
+      {/* <Time/> */}
+      {/* <Navbar /> */}
+      {/* <Lists/>  */}
+      {/* <Parent/> */}
+      {/* <Style/> */}
+      {/* <Starcount/> */}
+      {/* <Icons/> */}
+      {/* <Forms /> */}
+      {/* <Hooks /> */}
+      {/* <Header/> */}
+      {/* <AddContact/>  */}
+      {/* <ContactCard/> */}
+      {/* <ContactList/>  */}
+      {/* <Pokeman/> */}
+      {/* <News/> */}
+      {/* <UseEffectExm /> */}
+      <Routing />
+
 
     </>
   );

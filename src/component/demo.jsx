@@ -8,7 +8,7 @@ export default function Demo() {
         <>
             <h1>This is the use of fragment example</h1>
             <h1><Demo1 name="prashant" position="interns" /></h1>
-            <Conditional/>
+            <Conditional />
         </>
     );
 }
@@ -63,13 +63,13 @@ class Conditional extends React.Component {
         if (this.state.isLoggedIn) {
             return (
                 <>
-                Hello Guest
+                    Hello Guest
                 </>
             );
         } else {
             return (
                 <>
-                Hello User
+                    Hello User
                 </>
             );
         }

@@ -22,7 +22,7 @@ const News = () => {
 
     const fetchnews = () => {
         axios.get("https://newsapi.org/v2/top-headlines?country=in&apiKey=9f15837d0bf94e028496e6c920ecbe82").then((res) => {
-            console.log(res);
+            // console.log(res);
             setNews(res.data.articles);
         })
     }
