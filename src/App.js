@@ -1,7 +1,6 @@
 // // import Msg from './home';
 import './index.css';
 import React from 'react';
-
 // import Time from './component/clock'
 //import Info from './info';
 //import Star from './ustar';
@@ -20,7 +19,10 @@ import React from 'react';
 //import ContactList from './components/ContactList'
 //import Pokeman from './component/pokeman'
 //import News from './component/news'
-import Routing from './component/routing'
+//import Routing from './component/routing'
+//import UseEffectExm from './component/useEffectExp'
+//import A from './component/A'
+import Forms1 from './component/Forms1'
 
 
 
@@ -44,7 +46,10 @@ function App() {
       {/* <Pokeman/> */}
       {/* <News/> */}
       {/* <UseEffectExm /> */}
-      <Routing />
+      {/* <Routing /> */}
+      {/* <UseEffectExm/> */}
+      {/* <A/> */}
+      <Forms1/>
 
 
     </>
