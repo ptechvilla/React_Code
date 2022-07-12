@@ -21,8 +21,9 @@ import React from 'react';
 //import News from './component/news'
 //import Routing from './component/routing'
 //import UseEffectExm from './component/useEffectExp'
-//import A from './component/A'
-import Forms1 from './component/Forms1'
+import A from './component/useContext/A'
+//import Forms1 from './component/Forms1'
+//import RegistrationForm from './component/Forms/registrationForm'
 
 
 
@@ -48,8 +49,9 @@ function App() {
       {/* <UseEffectExm /> */}
       {/* <Routing /> */}
       {/* <UseEffectExm/> */}
-      {/* <A/> */}
-      <Forms1/>
+      <A/>
+      {/* <Forms1/> */}
+      {/* <RegistrationForm/> */}
 
 
     </>

@@ -1,0 +1,44 @@
+.f{
+    margin: auto;
+    margin-top: 40px;
+    height: 300px;
+    background-color: grey;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    padding: 20px;
+}
+
+input{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-top: 5px;
+    margin-left: 70px;
+    border-radius: 8.5px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+label{
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+
+.btn{
+    margin-top: 17px !important;
+}
+.datastyle{ 
+    margin: 15px 100px 0px 100px;
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    
+}

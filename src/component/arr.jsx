@@ -1,5 +1,5 @@
 import React from "react";
-import ADDTODO from './todo';
+
 
 let Data= () =>{
 const Arr = [
@@ -24,7 +24,7 @@ return(
             {todo.name} {todo.subject}
             </div>
       })}</h2>
-      <ADDTODO/>
+     
     </>
 );
 };
