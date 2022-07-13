@@ -19,12 +19,14 @@ import React from 'react';
 //import ContactList from './components/ContactList'
 //import Pokeman from './component/pokeman'
 //import News from './component/news'
-//import Routing from './component/routing'
+// import Routing from './component/routing'
 //import UseEffectExm from './component/useEffectExp'
-import A from './component/useContext/A'
+//import A from './component/useContext/A'
 //import Forms1 from './component/Forms1'
 //import RegistrationForm from './component/Forms/registrationForm'
-
+//import Home from './component/Routing/home'
+//import Json_using_axios from './component/json_using_axios'
+  import Todo from './component/TodoList/Todo'
 
 
 function App() {
@@ -45,13 +47,17 @@ function App() {
       {/* <ContactCard/> */}
       {/* <ContactList/>  */}
       {/* <Pokeman/> */}
-      {/* <News/> */}
+      {/* <News/>  */}
       {/* <UseEffectExm /> */}
       {/* <Routing /> */}
       {/* <UseEffectExm/> */}
-      <A/>
+      {/* <A/> */}
       {/* <Forms1/> */}
       {/* <RegistrationForm/> */}
+      {/* <Home /> */}
+      {/* <Json_using_axios/> */}
+      <Todo />
+
 
 
     </>

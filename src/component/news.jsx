@@ -52,7 +52,7 @@ const News = () => {
                                             </Typography>
                                         </CardContent>
                                         <CardActions>
-                                          <a href='#'> <Button size="small" style={{ color: "red" }}>Read more...</Button></a> 
+                                          <a href={value.url}> <Button size="small" style={{ color: "red" }}>Read more...</Button></a> 
                                         </CardActions>
                                     </Card>
                                 </div>

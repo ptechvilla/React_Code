@@ -20,7 +20,9 @@
     text-shadow: 2px 2px greenyellow;
     font-size: 18px;
   }
+ ul li:active{
+  color: black;
+ }
 
-  .style{
-    background-color: blue;
-  }
+
+
