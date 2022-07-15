@@ -1,0 +1,11 @@
+.tbl{
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+   
+    margin-top: 5%;
+    width: 50% !important;
+    margin-left: 40%;
+    border: none;
+    height: 60%;
+}

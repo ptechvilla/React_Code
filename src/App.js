@@ -26,7 +26,7 @@ import React from 'react';
 //import RegistrationForm from './component/Forms/registrationForm'
 //import Home from './component/Routing/home'
 //import Json_using_axios from './component/json_using_axios'
-  import Todo from './component/TodoList/Todo'
+import Todo from './component/TodoList/Todo'
 
 
 function App() {
@@ -57,6 +57,7 @@ function App() {
       {/* <Home /> */}
       {/* <Json_using_axios/> */}
       <Todo />
+      {/* <Info/> */}
 
 
 
