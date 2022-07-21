@@ -28,6 +28,7 @@ import React from 'react';
 //import Json_using_axios from './component/json_using_axios'
 //import Todo from './component/TodoList/Todo'
 import AppLogin from './AppLogin'
+//import Todo2 from './components/Todolist2Exm/Todo2'
 
 
 
@@ -60,9 +61,10 @@ function App() {
       {/* <Json_using_axios/> */}
       {/* <Todo /> */}
       {/* <Info/> */}
-      <AppLogin />
-     
-      
+      <AppLogin />    {/* Authentication and dashboard */}
+      {/* <Todo2 /> */}
+
+
 
 
 

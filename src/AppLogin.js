@@ -7,9 +7,7 @@ import LoginReg from './LoginRegistration/pages/auth/LoginReg'
 
 const AppLogin = () => {
     return (
-
         <>
-        
             <Routes>
                 <Route path="/" element={<Layout />} >
                     <Route index element={<Home />} />
