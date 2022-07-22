@@ -14,11 +14,11 @@ const Navbar = () => {
                             Geek-Shop
                         </Typography>
 
-                        <Button color="secondary" component={NavLink} to='/' style={({ isActive }) => { return { backgroundColor: isActive ? '#6d1b7b' : '' } }} sx={{ color: 'white', textTransform:'none' }}>Home</Button>
+                        <Button color="secondary" component={NavLink} to='/' style={({ isActive }) => { return { backgroundColor: isActive ? '#6d1b7b' : '' } }} sx={{ color: 'white', textTransform: 'none' }}>Home</Button>
 
-                        <Button color="secondary" component={NavLink} to='/contact' style={({ isActive }) => { return { backgroundColor: isActive ? '#6d1b7b' : '' } }} sx={{ color: 'white', textTransform:'none' }}>Contact</Button>
+                        <Button color="secondary" component={NavLink} to='/contact' style={({ isActive }) => { return { backgroundColor: isActive ? '#6d1b7b' : '' } }} sx={{ color: 'white', textTransform: 'none' }}>Contact</Button>
 
-                        <Button color="secondary" component={NavLink} to='/login' style={({ isActive }) => { return { backgroundColor: isActive ? '#6d1b7b' : '' } }} sx={{ color: 'white', textTransform:'none' }}>Login/Register</Button>
+                        <Button color="secondary" component={NavLink} to='/login' style={({ isActive }) => { return { backgroundColor: isActive ? '#6d1b7b' : '' } }} sx={{ color: 'white', textTransform: 'none' }}>Login/Register</Button>
 
                     </Toolbar>
                 </AppBar>

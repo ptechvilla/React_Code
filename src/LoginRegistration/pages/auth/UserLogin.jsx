@@ -1,17 +1,51 @@
 import React from 'react'
-import { TextField, Button, Box,Alert } from '@mui/material'
+import { TextField, Button, Box, Alert } from '@mui/material'
+import { NavLink,useNavigate } from 'react-router-dom'
+import { useState } from 'react'
+
 
 const UserLogin = () => {
-  return ( <>
-     <Box component='form' sx={{mt:1}} id='login-form'>
+  const [error, setError] = useState({
+    status: 'false',
+    msg: '',
+    type: ''
+  })
+
+  const navigate=useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const data = new FormData(e.currentTarget);
+    const actualData = {
+      email: data.get('email'),
+      password: data.get('password'),
+    }
+    if (actualData.email && actualData.password) {
+      console.log(actualData);
+      document.getElementById('login-form').reset();
+      setError({ status: true, msg: 'Login Success', type: 'success' })
+      navigate('/dashboard');
+    } else {
+      setError({ status: true, msg: 'All fields are required', type: 'error' })
+    }
+  }
+
+
+
+  return (<>
+    <Box component='form' noValidate sx={{ mt: 1 }} id='login-form' onSubmit={handleSubmit}>
       <TextField margin='normal' required fullWidth id='email' name='email' label='email here' />
       <TextField margin='normal' required fullWidth id='password' name='password' label='password here' type="password" />
       <Box textAlign='center'>
-      <Button sx={{mt:3, mb:2, px:5}} variant="contained">Login</Button>
+        <Button type="submit" sx={{ mt: 3, mb: 2, px: 5 }} variant="contained" color="success">Login</Button>
       </Box>
-     </Box>
-    </>
+      <NavLink to='/sendpasswordresetemail'>Forgot password ?</NavLink>
+      
+      { error.status ? <Alert variant='outlined' severity={error.type}>{error.msg}</Alert> : ''}
+      
+    </Box>
+  </>
   )
 }
 
-export default UserLogin
+export default UserLogin;

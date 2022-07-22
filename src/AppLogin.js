@@ -4,6 +4,8 @@ import { Routes, Route } from 'react-router-dom'
 import Home from './LoginRegistration/pages/home'
 import Contact from './LoginRegistration/pages/Contact'
 import LoginReg from './LoginRegistration/pages/auth/LoginReg'
+import SendPasswordResetEmail from './LoginRegistration/pages/auth/SendPasswordResetEmail'
+import Dashboard from './LoginRegistration/pages/Dashboard'
 
 const AppLogin = () => {
     return (
@@ -13,7 +15,9 @@ const AppLogin = () => {
                     <Route index element={<Home />} />
                     <Route path='contact' element={<Contact />} />
                     <Route path='login' element={<LoginReg/>}/>
+                    <Route path='sendpasswordresetemail' element={<SendPasswordResetEmail />} />
                 </Route>
+                <Route path='/dashboard' element={<Dashboard />} />
             </Routes>
         </>
     )
