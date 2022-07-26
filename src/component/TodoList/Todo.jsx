@@ -48,10 +48,7 @@ class Todo extends React.Component {
 
                             })
                         }
-                
-
-                    </Table>
-               
+                    </Table>              
                 </Container>
             </>
         );

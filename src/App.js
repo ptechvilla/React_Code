@@ -27,8 +27,10 @@ import React from 'react';
 //import Home from './component/Routing/home'
 //import Json_using_axios from './component/json_using_axios'
 //import Todo from './component/TodoList/Todo'
-import AppLogin from './AppLogin'
+// import AppLogin from './AppLogin'
 //import Todo2 from './components/Todolist2Exm/Todo2'
+//import Formvalidation from './Formvalidation1/Formvalidation'
+import UseMemo from './component/UseMemo/useMemo'
 
 
 
@@ -61,8 +63,10 @@ function App() {
       {/* <Json_using_axios/> */}
       {/* <Todo /> */}
       {/* <Info/> */}
-      <AppLogin />    {/* Authentication and dashboard */}
+      {/* <AppLogin />    Authentication and dashboard */}
       {/* <Todo2 /> */}
+      {/* <Formvalidation /> */}
+      <UseMemo />
 
 
 
